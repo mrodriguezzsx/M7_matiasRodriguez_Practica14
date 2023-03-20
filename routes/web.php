@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MainController@arrel')->name('entrada');
+Route::get('/', 'MainController')->name('entrada');
+Route::resource('articles', 'ArticleController');

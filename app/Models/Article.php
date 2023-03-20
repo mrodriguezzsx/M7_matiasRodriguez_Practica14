@@ -13,6 +13,7 @@ class Article extends Model
     protected $fillable = [
         'nombre',
         'descripcion',
+        'color',
         'precio-de-compra',
         'país',
         'divisa',
